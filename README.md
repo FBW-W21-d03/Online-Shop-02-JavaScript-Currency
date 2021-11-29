@@ -1,4 +1,4 @@
-# Online-Shop-JavaScipt-Currency
+# Online-Shop-JavaScript-Currency
 
 ## Aufgabenstellung
 Dein Online-Shop soll um eine JavaScript-Funktionalität erweitert werden.
