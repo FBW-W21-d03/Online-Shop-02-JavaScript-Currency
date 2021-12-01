@@ -1,30 +1,36 @@
-// Start-Einstellung von Geld ist Euro
-let currency = "euro";
-const dollarKurs = 1.13;
+let currency = "euro"; // merkt sich aktuelle Währung
+const dollarKurs = 1.13; // Kurs nur hier ändern
 
 function switchCurrency() {
-  // Button umbenennen
-  if (currency == "euro") {
-    currency = "dollar";
-    document.getElementById("btn-currency").innerHTML =
-      "Preise in Euro anzeigen";
-    // nur else würde reichen, benutze else if () für Klarheit
-  } else if (currency == "dollar") {
-    currency = "euro";
-    document.getElementById("btn-currency").innerHTML =
-      "Preise in Dollar anzeigen";
-  }
   let preise = document.getElementsByClassName("price");
   let preisText = preise[0].innerHTML;
-  console.log("preisText:", preisText);
-  console.log(zahlVonText(preisText));
+  let preisZahl = zahlVonText(preisText);
+
+  if (currency == "euro") {
+    // aktive Währung wechseln
+    currency = "dollar";
+    // Button umbenennen
+    document.getElementById("btn-currency").innerHTML =
+      "Preise in Euro anzeigen";
+    // 1. Preis ändern
+    preise[0].innerHTML = "$ " + (preisZahl * dollarKurs).toFixed(2);
+    // nur else würde reichen, benutze else if () für Klarheit
+  } else if (currency == "dollar") {
+    // aktive Währung wechseln
+    currency = "euro";
+    // Button umbenennen
+    document.getElementById("btn-currency").innerHTML =
+      "Preise in Dollar anzeigen";
+    // 1. Preis ändern
+    preise[0].innerHTML = (preisZahl / dollarKurs).toFixed(2) + " €";
+  }
 }
 
+// Funktion die Preis (String) in eine Zahl umwandelt und
+// zurück gibt (return)
 function zahlVonText(text) {
-  // Lösche ",00 €" - also die letzten 5 Zeichen - aus dem Text
-  text = text.replace(",00 €", "");
-  // Lösche den Tausender-Punkt aus dem Text, falls vorhanden
-  let zahl = text.replace(".", "");
-  console.log(zahl);
-  return zahl;
+  text = text.replace(",00", ""); // für Start
+  text = text.replace(" €", ""); // für Umwandlung € -> $
+  text = text.replace("$ ", ""); // für Umwandlung $ -> €
+  return text;
 }

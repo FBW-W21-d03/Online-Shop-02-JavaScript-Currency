@@ -25,6 +25,11 @@ header {
   display: flex;
   justify-content: space-between;
   #btn-currency {
+    background-color: $mint;
+    cursor: pointer;
+  }
+  #btn-currency:hover {
+    background-color: $mint-light;
   }
 }
 main {
