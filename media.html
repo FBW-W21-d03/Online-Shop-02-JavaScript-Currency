@@ -19,6 +19,7 @@
             <a id="aktSeite">Home</a>
             <a href="index.html">Startseite</a>
             <a href="formular.html">Registrieren</a>
+            <button id="btn" onclick="dollerToEuro()">In $ anzeigen</button>
         </nav>
         <img src="header.jpg" alt="Karte">
 
@@ -33,15 +34,17 @@
             <label>ASUS </label>
             <label>Modell:</label>
             <select required>
-                <option>15,6 Zoll</option>
-                <option>17 Zoll</option>
-               
+                <option id="modell1">15,6 Zoll</option>
+                <option id="modell2">17 Zoll</option>
+
             </select>
-            
+
             <div class="preis"><label>Preis:</label>
-                <label>770 €</label>
+                <span id="preis1">770 </span>
+                <span id="wechsel1">€</span>
             </div>
         </div>
+
 
         <div class="anzeige ">
             <div>
@@ -56,7 +59,8 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>250 €</label>
+                <span id="preis2">250 </span>
+                <span id="wechsel2">€</span>
             </div>
         </div>
 
@@ -73,7 +77,8 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>1.429,00 €</label>
+               <span id="preis3">1.429 </span>
+               <span id="wechsel3">€</span>
             </div>
         </div>
 
@@ -90,7 +95,8 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>500 €</label>
+               <span id="preis4">500 </span>
+               <span id="wechsel4">€</span>
             </div>
         </div>
         <div class="anzeige ">
@@ -106,14 +112,15 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>300 €</label>
+              <span id="preis5">300 </span>
+              <span id="wechsel5">€</span>
             </div>
         </div>
         <div class="anzeige ">
             <div>
                 <img src="./images/product06.png" alt="Artikel " class="artikelBild ">
             </div>
-            <label>Microsoft  </label>
+            <label>Microsoft </label>
             <label>Modell:</label>
             <select required>
                 <option>15,6 Zoll</option>
@@ -122,7 +129,8 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>880 €</label>
+                <span id="preis6">880 </span>
+               <span id="wechsel6">€</span>
             </div>
         </div>
         <div class="anzeige ">
@@ -138,7 +146,8 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>800 €</label>
+                  <span id="preis7">800 </span>
+                  <span id="wechsel7">€</span>
             </div>
         </div>
         <div class="anzeige ">
@@ -154,7 +163,8 @@
             </select>
 
             <div class="preis"><label>Preis:</label>
-                <label>770 €</label>
+                 <span id="preis8">500 </span>
+                 <span id="wechsel8">€</span>
             </div>
         </div>
         <div class="anzeige ">
@@ -163,10 +173,11 @@
             </div>
             <label>Canon </label>
             <label>Modell:</label>
-            
+
 
             <div class="preis"><label>Preis:</label>
-                <label>1.200,00 €</label>
+                 <span id="preis9">1.200</span>
+                 <span id="wechsel9">€</span>
             </div>
         </div>
 
@@ -219,6 +230,8 @@
             </div>
         </div>
     </footer>
+    <script src="index.js">
+    </script>
 </body>
 
 </html>
