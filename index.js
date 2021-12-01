@@ -9,53 +9,53 @@ function myFunction(){
     console.log(euro);
     euro = !euro;
      ;
-    if (euro) { document.getElementById("wert").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert").innerHTML = ("$")}
     
-    else { document.getElementById("wert").innerHTML = ("$");
+    else { document.getElementById("wert").innerHTML = ("€");
     }
 
-    if (euro) { document.getElementById("wert1").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert1").innerHTML = ("$")}
     
-    else { document.getElementById("wert1").innerHTML = ("$")
+    else { document.getElementById("wert1").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert2").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert2").innerHTML = ("$")}
     
-    else { document.getElementById("wert2").innerHTML = ("$")
+    else { document.getElementById("wert2").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert3").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert3").innerHTML = ("$")}
     
-    else { document.getElementById("wert3").innerHTML = ("$")
+    else { document.getElementById("wert3").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert4").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert4").innerHTML = ("$")}
     
-    else { document.getElementById("wert4").innerHTML = ("$")
+    else { document.getElementById("wert4").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert5").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert5").innerHTML = ("$")}
     
-    else { document.getElementById("wert5").innerHTML = ("$")
+    else { document.getElementById("wert5").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert6").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert6").innerHTML = ("$")}
     
-    else { document.getElementById("wert6").innerHTML = ("$")
+    else { document.getElementById("wert6").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert7").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert7").innerHTML = ("$")}
     
-    else { document.getElementById("wert7").innerHTML = ("$")
+    else { document.getElementById("wert7").innerHTML = ("€")
     }
 
-    if (euro) { document.getElementById("wert8").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert8").innerHTML = ("$")}
     
-    else { document.getElementById("wert8").innerHTML = ("$")
+    else { document.getElementById("wert8").innerHTML = ("€")
     }
-    if (euro) { document.getElementById("wert9").innerHTML = ("€")}
+    if (euro) { document.getElementById("wert9").innerHTML = ("$")}
     
-    else { document.getElementById("wert9").innerHTML = ("$")
+    else { document.getElementById("wert9").innerHTML = ("€")
     }
      
     if (euro){ document.getElementById("card-link").innerHTML = (document.getElementById("card-link").innerHTML * 1.14).toFixed(2)  ;
