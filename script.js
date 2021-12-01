@@ -2,6 +2,8 @@ let currency = "euro"; // merkt sich aktuelle Währung
 const dollarKurs = 1.13; // Kurs nur hier ändern
 
 function switchCurrency() {
+  // von den nächsten zwei Zeilen nicht verwirren lassen
+  // hatten wir noch nicht.
   let preise = document.getElementsByClassName("price");
   let preisText = preise[0].innerHTML;
   let preisZahl = zahlVonText(preisText);
