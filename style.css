@@ -1,0 +1,20 @@
+body{
+    background-color: brown;
+}
+header{
+    background-color: black;
+}
+.card{
+    border: black;
+    border-width: 50em;
+    
+}
+.dhl{
+    width: 100px;
+}
+.dhl{
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
