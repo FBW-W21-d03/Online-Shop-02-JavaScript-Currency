@@ -1,18 +1,23 @@
-# Online-Shop-JavaScript-Currency
+# Online-Shop
 
 ## Aufgabenstellung
-Dein Online-Shop soll um eine JavaScript-Funktionalität erweitert werden.
+Deine Aufgabe ist es, einen Online Shop zu bauen. Es soll sich um ein Elektrofachgeschäft handeln.
 
-Der Kunde soll entscheiden können, in welcher Währung die Preise ausgeschildert werden.
+Dein Geschäft hat den Namen Electro und bietet 9 Produkte an. Kunden haben die Möglichkeit, eines deiner Produkte zu kaufen.
 
-Zur Wahl stehen Euro und US-Dollar.
+## Tech Stack
+Du beginnst mit HTML und CSS. In späteren Aufgaben wirst du deine Seite um JavaScript ergänzen.
 
-## Funktionalität
-Dem Nutzer steht im Header der Hauptseite ein Button zur Verfügung. Durch das Betätigen des Buttons werden sämtliche Preise in die andere Währung umgerechnet.
+Gerne darfst du Bootstrap und Sass benutzen. Wichtig ist nur, dass du am Ende eine funktionierende Seite hast.
 
-Falls der Euro angewendet wird, heißt der Button "In $ anzeigen!".
+## Seitenaufbau
+Deine Seite muss mindestens einen Header mit einem Logo und eine Hauptseite mit den 9 Produkten beinhalten.
 
-Falls der Dollar anwendet wird, heißt der Button "In € anzeigen!".
+Jedes Produkt hat ein Bild und einen Button als Kaufaktion. Falls ein Benutzer auf den Button klickt, passiert im Moment noch nichts.
 
-Nach Betätigen des Buttons, erscheinen die Preise in der gewünschten Währung. Dazu müssen die Preise mit dem aktuellen Wechselkurs umgerechnet werden. Finde selber heraus, was der aktuelle Wechselkurs ist.
+Zusätzlich muss jedes Produkt einen Preis und einen Namen haben. Der Preis und Name sind von dir frei wählbar.
 
+## Ressourcen
+Neben dieser Anleitung findest du ein Bild für das Logo und ein Bild für jedes Produkt. Erstelle einen Branch mit deinem Namen und lade dort deine Ergebnisse hoch.
+
+Achtung: Das Logo hat eine weiße Schrift, benutze daher einen kontraktstarken Hintergrund.
