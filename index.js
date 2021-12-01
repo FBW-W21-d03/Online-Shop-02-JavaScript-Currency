@@ -9,9 +9,9 @@ let zeige=true;
 function Preis() {
     zeige=!zeige;
     if (zeige==true) {
-        document.getElementById("dollar").innerHTML = "In $ anzeigen";
+        document.getElementById("dollar").innerHTML = "Preis $ ";
     } else {
-        document.getElementById("dollar").innerHTML = "In € anzeigen";
+        document.getElementById("dollar").innerHTML = "Preis € ";
     }
     // console.log(zeige);
     

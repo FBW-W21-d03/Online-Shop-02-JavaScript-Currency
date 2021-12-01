@@ -16,7 +16,20 @@ header i {
   top: 2rem;
 }
 
-aside {
+header #preis-button {
+  margin-left: 102rem;
+  background-color: #555555;
+  border: 3px solid orangered;
+  color: #2e0404;
+  -webkit-animation-name: button;
+          animation-name: button;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes button {}
+
+@keyframes button {}aside {
   display: block;
 }
 
