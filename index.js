@@ -1,6 +1,5 @@
 
 
-
 let dollar = false;
 
 function cha() {
@@ -18,7 +17,6 @@ function cha() {
     if (dollar === false){
         document.getElementById("changeTo").innerHTML ="Change to Euro";
         
-
         document.getElementById("Preis01").innerHTML=(Number(wer1)*1.14).toFixed(2);
         document.getElementById("changeTo01").innerHTML="$";
         document.getElementById("Preis02").innerHTML=(Number(wer2)*1.14).toFixed(2);
@@ -38,8 +36,6 @@ function cha() {
         document.getElementById("Preis09").innerHTML=(Number(wer9)*1.14).toFixed(2);
         document.getElementById("changeTo09").innerHTML="$";
 
-
-        
     } else {
         document.getElementById("changeTo").innerHTML ="Change to Dollar";
 
