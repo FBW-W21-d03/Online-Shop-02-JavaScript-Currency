@@ -35,7 +35,6 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
                     <form class="d-flex navbar-collapse">
                         <button class="btn btn-outline-dark" type="submit">
                             <i class="bi-cart-fill me-1"></i>
@@ -43,8 +42,9 @@
                             <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
                         </button>
                     </form>
+                </div>
             </div>
-            <i class="fa fa-phone-square-alt"> +49 1525616561 </i> 
+                    <i class="fa fa-phone-square-alt"> +49 1525616561 </i> 
                     <i class="fa fa-mail-bulk" aria-hidden="true"> info@electro.shop</i>
         </nav>
         <!-- Header-->
@@ -118,6 +118,8 @@
                                 <button class="btn btn-outline-success" type="submit">Search</button>
                             </form>
                             </div>
+                            <button onclick="myFunction()" type="button" name="werrung" id="euro" class="btn border-danger">Euro <-> Dollar</button>
+                            
                         </div>
                     </nav>
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -133,7 +135,7 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">MacBook Pro 13”</h5>
                                     <!-- Product price-->
-                                    $1399.00
+                                    <span id="price">1399.00</span><span id="werrung">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -162,8 +164,7 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$820.00</span>
-                                    $618.00
+                                    <span id="price1">820.00</span><span id="werrung1">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -184,8 +185,7 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">MacBook Air</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$850.00</span>
-                                    $725.00
+                                    <span id="price2">850.00</span><span id="werrung2">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -213,7 +213,7 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    $400.00
+                                    <span id="price3">400.00</span><span id="werrung3">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -234,8 +234,7 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">AirPods Max.⁺</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$750.00</span>
-                                    $625.00
+                                    <span id="price4">750.00</span><span id="werrung4">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -254,7 +253,7 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">MacBook Pro 14” and 16”</h5>
                                     <!-- Product price-->
-                                    $1120.00 - $1280.00
+                                    <span id="price5">1600.00</span><span id="werrung5">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -284,8 +283,7 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$1420.00</span>
-                                    $1218.00
+                                    <span id="price6">1420.00</span><span id="werrung6">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -312,7 +310,7 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <p>From $2499or $208.25/mo. <brper month for 12 mo.</p>
+                                    <span id="price7">2345.99</span><span id="werrung7">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -331,7 +329,7 @@
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">AirTag Cam</h5>
                                     <!-- Product price-->
-                                    $640.00 - $480.00
+                                    <span id="price8">1234.00</span><span id="werrung8">€</span>
                                 </div>
                             </div>
                             <!-- Product actions-->
@@ -350,7 +348,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <!-- JS-->
-        <!-- <script src="scripts.js"></script> -->
+        <script src="scripts.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
