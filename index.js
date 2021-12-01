@@ -15,46 +15,46 @@ let währung = false;
      let preis12 = document.getElementById("preis12").innerHTML;
     
      if (währung == false) {
-         document.getElementById("preis1").innerHTML = (Number(wert1) * 1.14).toFixed(2);
+         document.getElementById("preis1").innerHTML = (Number(preis1) * 1.14).toFixed(2);
          document.getElementsByClassName("span").innerHTML = "$";
 
-         document.getElementById("preis2").innerHTML = (Number(wert2) * 1.14).toFixed(2);
+         document.getElementById("preis2").innerHTML = (Number(preis2) * 1.14).toFixed(2);
 
-         document.getElementById("preis3").innerHTML = (Number(wert3) * 1.14).toFixed(2);
+         document.getElementById("preis3").innerHTML = (Number(preis3) * 1.14).toFixed(2);
         
-         document.getElementById("preis4").innerHTML = (Number(wert4) * 1.14).toFixed(2);
+         document.getElementById("preis4").innerHTML = (Number(preis4) * 1.14).toFixed(2);
         
-         document.getElementById("preis5").innerHTML = (Number(wert5) * 1.14).toFixed(2);
+         document.getElementById("preis5").innerHTML = (Number(preis5) * 1.14).toFixed(2);
        
-         document.getElementById("preis6").innerHTML = (Number(wert6) * 1.14).toFixed(2);
+         document.getElementById("preis6").innerHTML = (Number(preis6) * 1.14).toFixed(2);
      
-         document.getElementById("preis7").innerHTML = (Number(wert7) * 1.14).toFixed(2);   
+         document.getElementById("preis7").innerHTML = (Number(preis7) * 1.14).toFixed(2);   
          
-         document.getElementById("preis8").innerHTML = (Number(wert8) * 1.14).toFixed(2);    
+         document.getElementById("preis8").innerHTML = (Number(preis8) * 1.14).toFixed(2);    
          
-         document.getElementById("preis9").innerHTML = (Number(wert9) * 1.14).toFixed(2)
+         document.getElementById("preis9").innerHTML = (Number(preis9) * 1.14).toFixed(2)
 
          document.getElementById("btn").innerHTML = "In € anzeigen";
 
      } else {
-         document.getElementById("preis1").innerHTML = (Number(wert1) / 1.14).toFixed(2);
+         document.getElementById("preis1").innerHTML = (Number(preis1) / 1.14).toFixed(2);
          document.getElementsByClassName("zeichenändern").innerHTML = "€";
 
-         document.getElementById("preis2").innerHTML = (Number(wert2) / 1.14).toFixed(2);
+         document.getElementById("preis2").innerHTML = (Number(preis2) / 1.14).toFixed(2);
 
-         document.getElementById("preis3").innerHTML = (Number(wert3) / 1.14).toFixed(2);
+         document.getElementById("preis3").innerHTML = (Number(preis3) / 1.14).toFixed(2);
 
-         document.getElementById("preis4").innerHTML = (Number(wert4) / 1.14).toFixed(2);
+         document.getElementById("preis4").innerHTML = (Number(preis4) / 1.14).toFixed(2);
 
-         document.getElementById("preis5").innerHTML = (Number(wert5) / 1.14).toFixed(2);
+         document.getElementById("preis5").innerHTML = (Number(preis5) / 1.14).toFixed(2);
 
-         document.getElementById("preis6").innerHTML = (Number(wert6) / 1.14).toFixed(2);
+         document.getElementById("preis6").innerHTML = (Number(preis6) / 1.14).toFixed(2);
 
-         document.getElementById("preis7").innerHTML = (Number(wert7) / 1.14).toFixed(2);
+         document.getElementById("preis7").innerHTML = (Number(preis7) / 1.14).toFixed(2);
 
-         document.getElementById("preis8").innerHTML = (Number(wert8) / 1.14).toFixed(2);
+         document.getElementById("preis8").innerHTML = (Number(preis8) / 1.14).toFixed(2);
 
-         document.getElementById("preis9").innerHTML = (Number(wert9) / 1.14).toFixed(2);
+         document.getElementById("preis9").innerHTML = (Number(preis9) / 1.14).toFixed(2);
 
          document.getElementById("btn").innerHTML = "In $ anzeigen";
      }
