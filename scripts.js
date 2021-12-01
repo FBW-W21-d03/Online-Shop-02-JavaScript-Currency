@@ -20,6 +20,16 @@ function myFunction(){
 
     euro = !euro
     werrung = !werrung
+
+    if (werrung){ document.getElementById("currency").innerHTML = "1€ = $1.13";
+             }
+    else { document.getElementById("currency").innerHTML = "$1 = 0.88€";
+         }
+
+    if (werrung){ document.getElementById("euroButton").innerHTML = "Euro";
+             }
+    else { document.getElementById("euroButton").innerHTML = "Dollar";
+         }
     
     if (euro){ document.getElementById("price").innerHTML = (document.getElementById("price").innerHTML / 1.13).toFixed(2);
              }
