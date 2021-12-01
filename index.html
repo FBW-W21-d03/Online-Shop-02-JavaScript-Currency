@@ -55,16 +55,9 @@
             <div class="card-body">
               <h5 class="card-title">Laptop</h5>
               <p class="card-text">HP 250 G8 45R43ES 15,6" FHD, Intel i3-1115G4, 8GB RAM, 256GB SSD, Windows 10 </p>
-              <a href="#" class="btn btn-primary">Einkaufswagen 320,00-Euro</a>
-              <!--Euro eingabe Feld-->
-
-<!--Dollar eingabe Feld-->
-<input id="Dollar" type="number" placeholder="$">
-<!--Berechnungs Button-->
-<button onclick="euroInDollar()">EuroInDollar</button><br/>
-              
-            
-            </div>
+              <a href="#" id="knopf" class="btn btn-primary">320,00-Euro</a>
+              <button id="umrechnen" onclick="umrechnen()">umrechnen</button>
+          </div>
           </div>
           <!--Zweite Karte-->
           <div class="card" style="width: 18rem;">       
@@ -72,8 +65,8 @@
             <div class="card-body">
               <h5 class="card-title">3-D Kopfhörer</h5>
               <p class="card-text">Sennheiser HDR 120-II Funk On Ear Kopfhörer On Ear Schwarz <br><br></p>
-              <a href="#" class="btn btn-primary">49,95-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf1" class="btn btn-primary">49,95-Euro</a>
+              <button id="umrechnen1" onclick="umrechnen1()">umrechnen</button>
             </div>
           </div>
           <!--Drite Karte-->
@@ -82,8 +75,9 @@
             <div class="card-body">
               <h5 class="card-title">Gaming-Laptop Samsung</h5>
               <p class="card-text">Samsung Galaxy Book Mystic Silver - 15.6" (39,62cm) FHD, Intel i3-1115G4, 8GB RAM... </p>
-              <a href="#" class="btn btn-primary">860,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf2" class="btn btn-primary">860,00-Euro</a>
+              <button id="umrechnen2" onclick="umrechnen2()">umrechnen</button>
+              
             </div>
           </div>
           <!--Vierte Karte-->
@@ -92,8 +86,8 @@
             <div class="card-body">
               <h5 class="card-title">Tablet-G3sr</h5>
               <p class="card-text">HP Chromebook x360 14a-ca0005ng 14" FHD IPS Touch, Intel N4020, 4GB RAM, 64GB</p>
-              <a href="#" class="btn btn-primary">548,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf3" class="btn btn-primary">548,00-Euro</a>
+              <button id="umrechnen3" onclick="umrechnen3()">umrechnen</button>
           </div>
           </div> 
           <!--Fünfte Karte-->
@@ -102,8 +96,8 @@
             <div class="card-body">
               <h5 class="card-title">Thomson-Kopfhörer</h5>
               <p class="card-text">Thomson WHP3001BK Funk TV Over Ear Kopfhörer Over Ear Lautstärkeregelung Schwarz </p>
-              <a href="#" class="btn btn-primary">98,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf4" class="btn btn-primary">98,00-Euro</a>
+              <button id="umrechnen4" onclick="umrechnen4()">umrechnen</button>
           </div>
           </div> 
           <!--Sechte Karte-->
@@ -112,8 +106,8 @@
             <div class="card-body">
               <h5 class="card-title">Laptop-Acer</h5>
               <p class="card-text">Acer Chromebook 315, 15,6" Full HD IPS Touch, Intel Celeron N4120,4GB.</p>
-              <a href="#" class="btn btn-primary">428,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf5" class="btn btn-primary">428,00-Euro</a>
+              <button id="umrechnen5" onclick="umrechnen5()">umrechnen</button>
             </div>
           </div>
           <!--Siebte Karte-->
@@ -122,8 +116,8 @@
             <div class="card-body">
               <h5 class="card-title">Realme-Handy</h5>
               <p class="card-text">Realme 8 128GB Cyber Black [16,3cm (6,4") Super AMOLED Display, Android 11, 64MP Quad-Kamera] </p>
-              <a href="#" class="btn btn-primary">179,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf6" class="btn btn-primary">179,00-Euro</a>
+              <button id="umrechnen6" onclick="umrechnen6()">umrechnen</button>
             </div>
           </div>
           <!--Achte Karte-->
@@ -132,8 +126,8 @@
             <div class="card-body">
               <h5 class="card-title">Lenovo</h5>
               <p class="card-text">Lenovo IdeaPad 1 81VU00A4GE - 14" FHD IPS, Intel Celeron N4020, 4GB RAM, 128GB SSD...<br><br> </p>
-              <a href="#" class="btn btn-primary">299,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf7" class="btn btn-primary">299,00-Euro</a>
+              <button id="umrechnen7" onclick="umrechnen7()">umrechnen</button>
             </div>
           </div>
           <!--Neunte Karte-->
@@ -142,8 +136,8 @@
             <div class="card-body">
               <h5 class="card-title">Digitale Kamera G6</h5>
               <p class="card-text">Arlo Kameragehäuse Weiß für Arlo Ultra/Pro 3 (VMA5202H).<br><br><br></p>
-              <a href="#" class="btn btn-primary">57,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf8" class="btn btn-primary">57,00-Euro</a>
+              <button id="umrechnen8" onclick="umrechne8()">umrechnen</button>
             </div>
           </div>
           <!--Zehnte Karte-->
@@ -152,8 +146,8 @@
             <div class="card-body">
               <h5 class="card-title">Samsung-Handy</h5>
               <p class="card-text">Samsung Galaxy S20 FE 5G 128GB Cloud Navy EU [16,40cm (6,5") OLED Display, Android 10, 12MP</p>
-              <a href="#" class="btn btn-primary">589,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf9" class="btn btn-primary">589,00-Euro</a>
+              <button id="umrechnen9" onclick="umrechnen9()">umrechnen</button>
             </div>
           </div>
           <!--Elfte Karte-->
@@ -162,8 +156,8 @@
             <div class="card-body">
               <h5 class="card-title">HP-Laptop</h5>
               <p class="card-text">HP 255 G7 214L9ES 15,6" FHD, AMD Athlon 3050U Dual-Core, 8GB RAM, 256GB SSD, DVD.<br><br></p>
-              <a href="#" class="btn btn-primary">299,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf10" class="btn btn-primary">299,00-Euro</a>
+              <button id="umrechnen10" onclick="umrechnen10()">umrechnen</button>
             </div>
           </div>
           <!--Zwölfte Karte-->
@@ -172,8 +166,8 @@
             <div class="card-body">
               <h5 class="card-title">HP-NVY</h5>
               <p class="card-text">HP ENVY x360 15-eu0178ng 15,6" FHD IPS Touch, Ryzen 7 5700U, 16GB RAM, 1TB SSD, Windows 10.</p>
-              <a href="#" class="btn btn-primary">989,00-Euro</a>
-              <button id="umrechnen" onclick="umrechen()">umrechnen</button>
+              <a href="#" id="knopf11" class="btn btn-primary">989,00-Euro</a>
+              <button id="umrechnen11" onclick="umrechnen11()">umrechnen</button>
             </div>
           </div>
          </div>
